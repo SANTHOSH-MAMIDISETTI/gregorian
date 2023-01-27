@@ -1,0 +1,35 @@
+body{
+    background: #ffc600;
+	background: linear-gradient(to right, #D4D3DD, #ffc600);
+    color: rgb(60, 25, 25);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10;
+    padding: 10;
+}
+
+.page
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.page input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.page button {
+    width: auto;
+    color: rgb(7, 7, 0);
+}
+
